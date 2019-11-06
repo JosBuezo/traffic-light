@@ -1,0 +1,33 @@
+.selectLight{
+     background-color: black;
+     width: 200px;
+     height: 550px;
+     margin-left: 42%;
+    padding: 7px;
+    border-radius: 15px;
+    position: absolute;
+    top: 100px;
+}
+body{
+    background-image: url(https://www.psdgraphics.com/wp-content/uploads/2009/10/blue-sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.light {
+  height: 130px;
+  width: 130px;
+  margin: 20px;
+  border-radius: 50%;
+  padding: 70px;
+  position: relative;
+
+
+
+
+  cursor: pointer;
+  &.red { background-color: #990000;}
+  &.yellow { background-color: #CC6600;}
+  &.green  { background-color: #009933;}
+  &.selected{ box-shadow: #f8ffcc 0px 0px 50px 20px;}
+}
